@@ -1,0 +1,74 @@
+D:\Duycho-master\DTTT2\bin\Debug\net8.0\appsettings.Development.json
+D:\Duycho-master\DTTT2\bin\Debug\net8.0\appsettings.json
+D:\Duycho-master\DTTT2\bin\Debug\net8.0\DTTT2.staticwebassets.runtime.json
+D:\Duycho-master\DTTT2\bin\Debug\net8.0\DTTT2.exe
+D:\Duycho-master\DTTT2\bin\Debug\net8.0\DTTT2.deps.json
+D:\Duycho-master\DTTT2\bin\Debug\net8.0\DTTT2.runtimeconfig.json
+D:\Duycho-master\DTTT2\bin\Debug\net8.0\DTTT2.dll
+D:\Duycho-master\DTTT2\bin\Debug\net8.0\DTTT2.pdb
+D:\Duycho-master\DTTT2\obj\Debug\net8.0\DTTT2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Duycho-master\DTTT2\obj\Debug\net8.0\DTTT2.AssemblyInfoInputs.cache
+D:\Duycho-master\DTTT2\obj\Debug\net8.0\DTTT2.AssemblyInfo.cs
+D:\Duycho-master\DTTT2\obj\Debug\net8.0\DTTT2.csproj.CoreCompileInputs.cache
+D:\Duycho-master\DTTT2\obj\Debug\net8.0\DTTT2.MvcApplicationPartsAssemblyInfo.cache
+D:\Duycho-master\DTTT2\obj\Debug\net8.0\DTTT2.RazorAssemblyInfo.cache
+D:\Duycho-master\DTTT2\obj\Debug\net8.0\DTTT2.RazorAssemblyInfo.cs
+D:\Duycho-master\DTTT2\obj\Debug\net8.0\staticwebassets.build.json
+D:\Duycho-master\DTTT2\obj\Debug\net8.0\staticwebassets.development.json
+D:\Duycho-master\DTTT2\obj\Debug\net8.0\staticwebassets\msbuild.DTTT2.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Duycho-master\DTTT2\obj\Debug\net8.0\staticwebassets\msbuild.build.DTTT2.props
+D:\Duycho-master\DTTT2\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.DTTT2.props
+D:\Duycho-master\DTTT2\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.DTTT2.props
+D:\Duycho-master\DTTT2\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Duycho-master\DTTT2\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\Duycho-master\DTTT2\obj\Debug\net8.0\scopedcss\bundle\DTTT2.styles.css
+D:\Duycho-master\DTTT2\obj\Debug\net8.0\scopedcss\projectbundle\DTTT2.bundle.scp.css
+D:\Duycho-master\DTTT2\obj\Debug\net8.0\DTTT2.dll
+D:\Duycho-master\DTTT2\obj\Debug\net8.0\refint\DTTT2.dll
+D:\Duycho-master\DTTT2\obj\Debug\net8.0\DTTT2.pdb
+D:\Duycho-master\DTTT2\obj\Debug\net8.0\DTTT2.genruntimeconfig.cache
+D:\Duycho-master\DTTT2\obj\Debug\net8.0\ref\DTTT2.dll
+D:\Duycho-master\DTTT2\obj\Debug\net8.0\DTTT2.csproj.AssemblyReference.cache
+D:\Duycho-master\DTTT2\bin\Debug\net8.0\UnitsNet.dll
+D:\Duycho-master\DTTT2\bin\Debug\net8.0\fr-CA\UnitsNet.resources.dll
+D:\Duycho-master\DTTT2\bin\Debug\net8.0\nb-NO\UnitsNet.resources.dll
+D:\Duycho-master\DTTT2\bin\Debug\net8.0\ru-RU\UnitsNet.resources.dll
+D:\Duycho-master\DTTT2\bin\Debug\net8.0\zh-CN\UnitsNet.resources.dll
+D:\Duycho-master\DTTT2\obj\Debug\net8.0\DTTT2.csproj.CopyComplete
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\DTTT2\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\DTTT2\bin\Debug\net8.0\appsettings.json
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\DTTT2\bin\Debug\net8.0\DTTT2.staticwebassets.runtime.json
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\DTTT2\bin\Debug\net8.0\DTTT2.exe
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\DTTT2\bin\Debug\net8.0\DTTT2.deps.json
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\DTTT2\bin\Debug\net8.0\DTTT2.runtimeconfig.json
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\DTTT2\bin\Debug\net8.0\DTTT2.dll
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\DTTT2\bin\Debug\net8.0\DTTT2.pdb
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\DTTT2\bin\Debug\net8.0\UnitsNet.dll
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\DTTT2\bin\Debug\net8.0\fr-CA\UnitsNet.resources.dll
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\DTTT2\bin\Debug\net8.0\nb-NO\UnitsNet.resources.dll
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\DTTT2\bin\Debug\net8.0\ru-RU\UnitsNet.resources.dll
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\DTTT2\bin\Debug\net8.0\zh-CN\UnitsNet.resources.dll
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\DTTT2\obj\Debug\net8.0\DTTT2.csproj.AssemblyReference.cache
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\DTTT2\obj\Debug\net8.0\DTTT2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\DTTT2\obj\Debug\net8.0\DTTT2.AssemblyInfoInputs.cache
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\DTTT2\obj\Debug\net8.0\DTTT2.AssemblyInfo.cs
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\DTTT2\obj\Debug\net8.0\DTTT2.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\DTTT2\obj\Debug\net8.0\DTTT2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\DTTT2\obj\Debug\net8.0\DTTT2.RazorAssemblyInfo.cache
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\DTTT2\obj\Debug\net8.0\DTTT2.RazorAssemblyInfo.cs
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\DTTT2\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\DTTT2\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\DTTT2\obj\Debug\net8.0\staticwebassets\msbuild.DTTT2.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\DTTT2\obj\Debug\net8.0\staticwebassets\msbuild.build.DTTT2.props
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\DTTT2\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.DTTT2.props
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\DTTT2\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.DTTT2.props
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\DTTT2\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\DTTT2\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\DTTT2\obj\Debug\net8.0\scopedcss\bundle\DTTT2.styles.css
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\DTTT2\obj\Debug\net8.0\scopedcss\projectbundle\DTTT2.bundle.scp.css
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\DTTT2\obj\Debug\net8.0\DTTT2.csproj.CopyComplete
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\DTTT2\obj\Debug\net8.0\DTTT2.dll
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\DTTT2\obj\Debug\net8.0\refint\DTTT2.dll
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\DTTT2\obj\Debug\net8.0\DTTT2.pdb
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\DTTT2\obj\Debug\net8.0\DTTT2.genruntimeconfig.cache
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\DTTT2\obj\Debug\net8.0\ref\DTTT2.dll
