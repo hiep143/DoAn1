@@ -5,10 +5,7 @@
 }
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 
 
 </div>
@@ -48,26 +45,16 @@
                         <option value="Pi" selected="@Model?.MatchingType == " Pi"">Pi</option>
                         <option value="T" selected="@Model?.MatchingType == " T"">T</option>
                     </select>
-                    <!-- Thêm trường radio button cho loại DC -->
-                    <label for=ConnectionType>Dạng mạch</label>
-                    <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="ConnectionType" id="DCFeed" value="DC feed" checked="@Model?.ConnectionType == " DC feed"">
-                        <label class="form-check-label" for="DCFeed">
-                            DC feed
-                        </label>
-                    </div>
-                    <div class="form-check align-baseline">
-                        <input class="form-check-input" type="radio" name="ConnectionType" id="DCBlock" checked="@Model?.ConnectionType == " DC block"">
-                        <label class="form-check-label" for="DCBlock">
-                            DC block
-                        </label>
-                    </div>
-                    <div class="mb-3 row">
-                        <label for="QualityFactor" class="col-sm-2 col-form-label">Quality Factor</label>
-                        <div class="col-sm-6">
-                            <input type="number" class="form-control" id="QualityFactor" name="QualityFactor" value="@Model?.QualityFactor" required>
-                        </div>
-                    </div>
+                     <!-- Thêm trường radio button cho loại DC -->
+        <label for="ConnectionType">Dạng mạch:</label><br>
+        <input type="radio" id="DCFeed" name="ConnectionType" value="DC feed" checked="@Model?.ConnectionType == " DC feed"">
+        <label for="DCFeed">DC feed</label><br>
+        <input type="radio" id="DCBlock" name="ConnectionType" value="DC block" checked="@Model?.ConnectionType == " DC block"">
+        <label for="DCBlock">DC block</label><br>
+
+        <label for="QualityFactor">Quality Factor:</label>
+        <input type="number" id="QualityFactor" name="QualityFactor" value="@Model?.QualityFactor" required><br>
+
                 </form>
             </div>
             <div class="col-lg-6 text-center">
@@ -97,27 +84,106 @@
             url: "/Home/CalculateImpedance",
             data: { Zin: Zin, RL: RL, Frequency: Frequency, MatchingType: MatchingType, ConnectionType: ConnectionType, QualityFactor: QualityFactor },
             success: function (response) {
-                if (response.length > 0) {
+                if (response && response.length > 0) {
                     // Hiển thị kết quả tính toán ngay trong trang Index
                     var resultHtml = "<h2>Kết quả tính toán</h2>";
-                    resultHtml += "<p>L = " + response[0] + " nH, C = " + response[1] + " pF</p>";
+                
+                    // Hiển thị các giá trị L nếu tồn tại
+                    if (response[0] !== undefined) {
+                        // Kiểm tra số lượng giá trị L
+                        if (response[0].length === 1) {
+                            resultHtml += "<p>L = " + response[0][0] + " nH</p>";
+                        } else {
+                            for (var i = 0; i < response[0].length; i++) {
+                                resultHtml += "<p>L" + (i + 1) + " = " + response[0][i] + " nH</p>";
+                            }
+                        }
+                    }
+
+                    // Kiểm tra số lượng giá trị C
+                    if (response[1] !== undefined) {
+                        if (response[1].length === 1) {
+                            resultHtml += "<p>C = " + response[1][0] + " pF</p>";
+                        } else {
+                            for (var j = 0; j < response[1].length; j++) {
+                                resultHtml += "<p>C" + (j + 1) + " = " + response[1][j] + " pF</p>";
+                            }
+                        }
+                    }
+
                     document.getElementById("result").innerHTML = resultHtml;
 
+
+                    // Hiển thị hình ảnh tương ứng
+                    displayMatchingImage(MatchingType, ConnectionType);
                     // Ẩn thông báo lỗi nếu có
-                    document.getElementById("errorText").style.display = "none";
-                } else {
+                    var errorTextElement = document.getElementById("errorText");
+                    if (errorTextElement !== null) {
+                        errorTextElement.style.display = "none";
+                    }
+                }
+
+                else {
                     // Hiển thị thông báo lỗi nếu không có kết quả trả về
                     document.getElementById("errorText").style.display = "block";
                     // Xóa kết quả tính toán trước đó (nếu có)
                     document.getElementById("result").innerHTML = "";
                 }
-            },
-            error: function () {
-                // Xử lý lỗi nếu có
-                document.getElementById("errorText").style.display = "block";
-                // Xóa kết quả tính toán trước đó (nếu có)
-                document.getElementById("result").innerHTML = "";
             }
         });
     }
+function displayMatchingImage(matchingType, connectionType, Zin, RL) {
+        var imagePath = "/images/"; // Đường dẫn tới thư mục chứa hình ảnh
+        if (matchingType === "L" && connectionType === "DC feed") {        
+            if(Zin > RL)
+            imagePath += "L_DCFEED1.png";
+            else
+            imagePath += "L_DCFEED2.png"
+        }
+        else if (matchingType === "L" && connectionType === "DC block") {
+            if(Zin > RL)
+            imagePath += "L_DCBLOCK1.png"
+            else
+            imagePath += "L_DCBLOCK2.png"
+        } 
+        else if (matchingType === "Pi" && connectionType === "DC feed") {
+            imagePath += "Pi_DCFEED.png";
+        } 
+        else if (matchingType === "Pi" && connectionType === "DC block") {
+            imagePath += "Pi_DCBLOCK.png";
+        } 
+        else if (matchingType === "T" && connectionType === "DC feed") {
+            imagePath += "T_DCFEED.png";
+        } 
+        else if (matchingType === "T" && connectionType === "DC block") {
+            imagePath += "T_DCBLOCK.png";
+        } 
+        else {
+            // Nếu không có điều kiện nào khớp, bạn có thể sử dụng một hình ảnh mặc định hoặc thông báo lỗi
+            imagePath += "default.jpg"; // Hình ảnh mặc định
+        }
+
+        // Đặt nguồn hình ảnh cho thẻ img
+        document.getElementById("matchingImage").src = imagePath;
+    }
+    function toggleQualityFactorVisibility() {
+        var matchingType = document.getElementById("MatchingType").value;
+        var qualityFactorInput = document.getElementById("QualityFactor");
+
+        // Kiểm tra null trước khi truy cập thuộc tính
+        if (matchingType !== null && qualityFactorInput !== null) {
+            // Nếu loại mạch là "L", ẩn trường Quality Factor
+            if (matchingType === "L") {
+                qualityFactorInput.style.display = "none";
+            } else {
+                qualityFactorInput.style.display = "block";
+            }
+        }
+    }
+
+    // Gọi hàm toggleQualityFactorVisibility khi người dùng thay đổi lựa chọn
+    document.getElementById("MatchingType").onchange = toggleQualityFactorVisibility;
+
+    // Gọi toggleQualityFactorVisibility một lần nữa khi trang được tải
+    window.onload = toggleQualityFactorVisibility;
 </script>

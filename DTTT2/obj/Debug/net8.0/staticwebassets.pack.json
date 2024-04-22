@@ -13,6 +13,38 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Duychoancut\\DTTT2\\wwwroot\\images\\L_DCBLOCK1.png",
+      "PackagePath": "staticwebassets\\images\\L_DCBLOCK1.png"
+    },
+    {
+      "Id": "D:\\Duychoancut\\DTTT2\\wwwroot\\images\\L_DCBLOCK2.png",
+      "PackagePath": "staticwebassets\\images\\L_DCBLOCK2.png"
+    },
+    {
+      "Id": "D:\\Duychoancut\\DTTT2\\wwwroot\\images\\L_DCFEED1.png",
+      "PackagePath": "staticwebassets\\images\\L_DCFEED1.png"
+    },
+    {
+      "Id": "D:\\Duychoancut\\DTTT2\\wwwroot\\images\\L_DCFEED2.png",
+      "PackagePath": "staticwebassets\\images\\L_DCFEED2.png"
+    },
+    {
+      "Id": "D:\\Duychoancut\\DTTT2\\wwwroot\\images\\Pi_DCBLOCK.png",
+      "PackagePath": "staticwebassets\\images\\Pi_DCBLOCK.png"
+    },
+    {
+      "Id": "D:\\Duychoancut\\DTTT2\\wwwroot\\images\\Pi_DCFEED.png",
+      "PackagePath": "staticwebassets\\images\\Pi_DCFEED.png"
+    },
+    {
+      "Id": "D:\\Duychoancut\\DTTT2\\wwwroot\\images\\T_DCBLOCK.png",
+      "PackagePath": "staticwebassets\\images\\T_DCBLOCK.png"
+    },
+    {
+      "Id": "D:\\Duychoancut\\DTTT2\\wwwroot\\images\\T_DCFEED.png",
+      "PackagePath": "staticwebassets\\images\\T_DCFEED.png"
+    },
+    {
       "Id": "D:\\Duychoancut\\DTTT2\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

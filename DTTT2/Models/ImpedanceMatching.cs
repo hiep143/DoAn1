@@ -61,7 +61,7 @@ namespace DTTT2.Models
                     else
                     {
                         double Qp = Math.Sqrt(RL.Ohms / Zin.Ohms - 1);
-                        ElectricInductance L = ElectricInductance.FromHenries(RL.Ohms / (Qp * w * Math.PI));
+                        ElectricInductance L = ElectricInductance.FromHenries(RL.Ohms / (Qp * w));
                         ElectricInductance Ls = ElectricInductance.FromHenries(L.Henries*Math.Pow(Qp, 2)/(1+Math.Pow(Qp, 2)));
                         Capacitance C = Capacitance.FromFarads(1/(Ls.Henries*Math.Pow(w, 2)));
                         return new double[][] { new double[] { L.Nanohenries }, new double[] { C.Picofarads } };
