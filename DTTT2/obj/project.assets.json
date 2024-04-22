@@ -69,11 +69,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asus\\Documents\\Zalo Received Files\\Duycho-master\\DTTT2\\DTTT2.csproj",
+      "projectUniqueName": "D:\\Duychoancut\\DTTT2\\DTTT2.csproj",
       "projectName": "DTTT2",
-      "projectPath": "C:\\Users\\Asus\\Documents\\Zalo Received Files\\Duycho-master\\DTTT2\\DTTT2.csproj",
+      "projectPath": "D:\\Duychoancut\\DTTT2\\DTTT2.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asus\\Documents\\Zalo Received Files\\Duycho-master\\DTTT2\\obj\\",
+      "outputPath": "D:\\Duychoancut\\DTTT2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -97,6 +97,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -127,7 +132,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
