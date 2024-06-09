@@ -1,0 +1,150 @@
+D:\Duycho-master\Anten\bin\Debug\net8.0\appsettings.Development.json
+D:\Duycho-master\Anten\bin\Debug\net8.0\appsettings.json
+D:\Duycho-master\Anten\bin\Debug\net8.0\Anten.staticwebassets.runtime.json
+D:\Duycho-master\Anten\bin\Debug\net8.0\Anten.exe
+D:\Duycho-master\Anten\bin\Debug\net8.0\Anten.deps.json
+D:\Duycho-master\Anten\bin\Debug\net8.0\Anten.runtimeconfig.json
+D:\Duycho-master\Anten\bin\Debug\net8.0\Anten.dll
+D:\Duycho-master\Anten\bin\Debug\net8.0\Anten.pdb
+D:\Duycho-master\Anten\obj\Debug\net8.0\Anten.GeneratedMSBuildEditorConfig.editorconfig
+D:\Duycho-master\Anten\obj\Debug\net8.0\Anten.AssemblyInfoInputs.cache
+D:\Duycho-master\Anten\obj\Debug\net8.0\Anten.AssemblyInfo.cs
+D:\Duycho-master\Anten\obj\Debug\net8.0\Anten.csproj.CoreCompileInputs.cache
+D:\Duycho-master\Anten\obj\Debug\net8.0\Anten.MvcApplicationPartsAssemblyInfo.cache
+D:\Duycho-master\Anten\obj\Debug\net8.0\Anten.RazorAssemblyInfo.cache
+D:\Duycho-master\Anten\obj\Debug\net8.0\Anten.RazorAssemblyInfo.cs
+D:\Duycho-master\Anten\obj\Debug\net8.0\staticwebassets.build.json
+D:\Duycho-master\Anten\obj\Debug\net8.0\staticwebassets.development.json
+D:\Duycho-master\Anten\obj\Debug\net8.0\staticwebassets\msbuild.Anten.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Duycho-master\Anten\obj\Debug\net8.0\staticwebassets\msbuild.build.Anten.props
+D:\Duycho-master\Anten\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Anten.props
+D:\Duycho-master\Anten\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Anten.props
+D:\Duycho-master\Anten\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Duycho-master\Anten\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\Duycho-master\Anten\obj\Debug\net8.0\scopedcss\bundle\Anten.styles.css
+D:\Duycho-master\Anten\obj\Debug\net8.0\scopedcss\projectbundle\Anten.bundle.scp.css
+D:\Duycho-master\Anten\obj\Debug\net8.0\Anten.dll
+D:\Duycho-master\Anten\obj\Debug\net8.0\refint\Anten.dll
+D:\Duycho-master\Anten\obj\Debug\net8.0\Anten.pdb
+D:\Duycho-master\Anten\obj\Debug\net8.0\Anten.genruntimeconfig.cache
+D:\Duycho-master\Anten\obj\Debug\net8.0\ref\Anten.dll
+D:\Duycho-master\Anten\obj\Debug\net8.0\Anten.csproj.AssemblyReference.cache
+D:\Duycho-master\Anten\bin\Debug\net8.0\UnitsNet.dll
+D:\Duycho-master\Anten\bin\Debug\net8.0\fr-CA\UnitsNet.resources.dll
+D:\Duycho-master\Anten\bin\Debug\net8.0\nb-NO\UnitsNet.resources.dll
+D:\Duycho-master\Anten\bin\Debug\net8.0\ru-RU\UnitsNet.resources.dll
+D:\Duycho-master\Anten\bin\Debug\net8.0\zh-CN\UnitsNet.resources.dll
+D:\Duycho-master\Anten\obj\Debug\net8.0\Anten.csproj.CopyComplete
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\Anten\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\Anten\bin\Debug\net8.0\appsettings.json
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\Anten\bin\Debug\net8.0\Anten.staticwebassets.runtime.json
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\Anten\bin\Debug\net8.0\Anten.exe
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\Anten\bin\Debug\net8.0\Anten.deps.json
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\Anten\bin\Debug\net8.0\Anten.runtimeconfig.json
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\Anten\bin\Debug\net8.0\Anten.dll
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\Anten\bin\Debug\net8.0\Anten.pdb
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\Anten\bin\Debug\net8.0\UnitsNet.dll
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\Anten\bin\Debug\net8.0\fr-CA\UnitsNet.resources.dll
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\Anten\bin\Debug\net8.0\nb-NO\UnitsNet.resources.dll
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\Anten\bin\Debug\net8.0\ru-RU\UnitsNet.resources.dll
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\Anten\bin\Debug\net8.0\zh-CN\UnitsNet.resources.dll
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\Anten\obj\Debug\net8.0\Anten.csproj.AssemblyReference.cache
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\Anten\obj\Debug\net8.0\Anten.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\Anten\obj\Debug\net8.0\Anten.AssemblyInfoInputs.cache
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\Anten\obj\Debug\net8.0\Anten.AssemblyInfo.cs
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\Anten\obj\Debug\net8.0\Anten.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\Anten\obj\Debug\net8.0\Anten.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\Anten\obj\Debug\net8.0\Anten.RazorAssemblyInfo.cache
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\Anten\obj\Debug\net8.0\Anten.RazorAssemblyInfo.cs
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\Anten\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\Anten\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\Anten\obj\Debug\net8.0\staticwebassets\msbuild.Anten.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\Anten\obj\Debug\net8.0\staticwebassets\msbuild.build.Anten.props
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\Anten\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Anten.props
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\Anten\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Anten.props
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\Anten\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\Anten\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\Anten\obj\Debug\net8.0\scopedcss\bundle\Anten.styles.css
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\Anten\obj\Debug\net8.0\scopedcss\projectbundle\Anten.bundle.scp.css
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\Anten\obj\Debug\net8.0\Anten.csproj.CopyComplete
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\Anten\obj\Debug\net8.0\Anten.dll
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\Anten\obj\Debug\net8.0\refint\Anten.dll
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\Anten\obj\Debug\net8.0\Anten.pdb
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\Anten\obj\Debug\net8.0\Anten.genruntimeconfig.cache
+C:\Users\Asus\Documents\Zalo Received Files\Duycho-master\Anten\obj\Debug\net8.0\ref\Anten.dll
+D:\Duychoancut\Anten\bin\Debug\net8.0\appsettings.Development.json
+D:\Duychoancut\Anten\bin\Debug\net8.0\appsettings.json
+D:\Duychoancut\Anten\bin\Debug\net8.0\Anten.staticwebassets.runtime.json
+D:\Duychoancut\Anten\bin\Debug\net8.0\Anten.exe
+D:\Duychoancut\Anten\bin\Debug\net8.0\Anten.deps.json
+D:\Duychoancut\Anten\bin\Debug\net8.0\Anten.runtimeconfig.json
+D:\Duychoancut\Anten\bin\Debug\net8.0\Anten.dll
+D:\Duychoancut\Anten\bin\Debug\net8.0\Anten.pdb
+D:\Duychoancut\Anten\bin\Debug\net8.0\UnitsNet.dll
+D:\Duychoancut\Anten\bin\Debug\net8.0\fr-CA\UnitsNet.resources.dll
+D:\Duychoancut\Anten\bin\Debug\net8.0\nb-NO\UnitsNet.resources.dll
+D:\Duychoancut\Anten\bin\Debug\net8.0\ru-RU\UnitsNet.resources.dll
+D:\Duychoancut\Anten\bin\Debug\net8.0\zh-CN\UnitsNet.resources.dll
+D:\Duychoancut\Anten\obj\Debug\net8.0\Anten.csproj.AssemblyReference.cache
+D:\Duychoancut\Anten\obj\Debug\net8.0\Anten.GeneratedMSBuildEditorConfig.editorconfig
+D:\Duychoancut\Anten\obj\Debug\net8.0\Anten.AssemblyInfoInputs.cache
+D:\Duychoancut\Anten\obj\Debug\net8.0\Anten.AssemblyInfo.cs
+D:\Duychoancut\Anten\obj\Debug\net8.0\Anten.csproj.CoreCompileInputs.cache
+D:\Duychoancut\Anten\obj\Debug\net8.0\Anten.MvcApplicationPartsAssemblyInfo.cache
+D:\Duychoancut\Anten\obj\Debug\net8.0\Anten.RazorAssemblyInfo.cache
+D:\Duychoancut\Anten\obj\Debug\net8.0\Anten.RazorAssemblyInfo.cs
+D:\Duychoancut\Anten\obj\Debug\net8.0\Anten.sourcelink.json
+D:\Duychoancut\Anten\obj\Debug\net8.0\staticwebassets.build.json
+D:\Duychoancut\Anten\obj\Debug\net8.0\staticwebassets.development.json
+D:\Duychoancut\Anten\obj\Debug\net8.0\staticwebassets\msbuild.Anten.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Duychoancut\Anten\obj\Debug\net8.0\staticwebassets\msbuild.build.Anten.props
+D:\Duychoancut\Anten\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Anten.props
+D:\Duychoancut\Anten\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Anten.props
+D:\Duychoancut\Anten\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Duychoancut\Anten\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\Duychoancut\Anten\obj\Debug\net8.0\scopedcss\bundle\Anten.styles.css
+D:\Duychoancut\Anten\obj\Debug\net8.0\scopedcss\projectbundle\Anten.bundle.scp.css
+D:\Duychoancut\Anten\obj\Debug\net8.0\Anten.csproj.Up2Date
+D:\Duychoancut\Anten\obj\Debug\net8.0\Anten.dll
+D:\Duychoancut\Anten\obj\Debug\net8.0\refint\Anten.dll
+D:\Duychoancut\Anten\obj\Debug\net8.0\Anten.pdb
+D:\Duychoancut\Anten\obj\Debug\net8.0\Anten.genruntimeconfig.cache
+D:\Duychoancut\Anten\obj\Debug\net8.0\ref\Anten.dll
+D:\BTL_Anten\Anten\bin\Debug\net8.0\appsettings.Development.json
+D:\BTL_Anten\Anten\bin\Debug\net8.0\appsettings.json
+D:\BTL_Anten\Anten\bin\Debug\net8.0\Anten.staticwebassets.runtime.json
+D:\BTL_Anten\Anten\bin\Debug\net8.0\Anten.exe
+D:\BTL_Anten\Anten\bin\Debug\net8.0\Anten.deps.json
+D:\BTL_Anten\Anten\bin\Debug\net8.0\Anten.runtimeconfig.json
+D:\BTL_Anten\Anten\bin\Debug\net8.0\Anten.dll
+D:\BTL_Anten\Anten\bin\Debug\net8.0\Anten.pdb
+D:\BTL_Anten\Anten\bin\Debug\net8.0\UnitsNet.dll
+D:\BTL_Anten\Anten\bin\Debug\net8.0\fr-CA\UnitsNet.resources.dll
+D:\BTL_Anten\Anten\bin\Debug\net8.0\nb-NO\UnitsNet.resources.dll
+D:\BTL_Anten\Anten\bin\Debug\net8.0\ru-RU\UnitsNet.resources.dll
+D:\BTL_Anten\Anten\bin\Debug\net8.0\zh-CN\UnitsNet.resources.dll
+D:\BTL_Anten\Anten\obj\Debug\net8.0\Anten.csproj.AssemblyReference.cache
+D:\BTL_Anten\Anten\obj\Debug\net8.0\Anten.GeneratedMSBuildEditorConfig.editorconfig
+D:\BTL_Anten\Anten\obj\Debug\net8.0\Anten.AssemblyInfoInputs.cache
+D:\BTL_Anten\Anten\obj\Debug\net8.0\Anten.AssemblyInfo.cs
+D:\BTL_Anten\Anten\obj\Debug\net8.0\Anten.csproj.CoreCompileInputs.cache
+D:\BTL_Anten\Anten\obj\Debug\net8.0\Anten.MvcApplicationPartsAssemblyInfo.cache
+D:\BTL_Anten\Anten\obj\Debug\net8.0\Anten.RazorAssemblyInfo.cache
+D:\BTL_Anten\Anten\obj\Debug\net8.0\Anten.RazorAssemblyInfo.cs
+D:\BTL_Anten\Anten\obj\Debug\net8.0\Anten.sourcelink.json
+D:\BTL_Anten\Anten\obj\Debug\net8.0\staticwebassets.build.json
+D:\BTL_Anten\Anten\obj\Debug\net8.0\staticwebassets.development.json
+D:\BTL_Anten\Anten\obj\Debug\net8.0\staticwebassets\msbuild.Anten.Microsoft.AspNetCore.StaticWebAssets.props
+D:\BTL_Anten\Anten\obj\Debug\net8.0\staticwebassets\msbuild.build.Anten.props
+D:\BTL_Anten\Anten\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Anten.props
+D:\BTL_Anten\Anten\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Anten.props
+D:\BTL_Anten\Anten\obj\Debug\net8.0\staticwebassets.pack.json
+D:\BTL_Anten\Anten\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\BTL_Anten\Anten\obj\Debug\net8.0\scopedcss\bundle\Anten.styles.css
+D:\BTL_Anten\Anten\obj\Debug\net8.0\scopedcss\projectbundle\Anten.bundle.scp.css
+D:\BTL_Anten\Anten\obj\Debug\net8.0\Anten.csproj.Up2Date
+D:\BTL_Anten\Anten\obj\Debug\net8.0\Anten.dll
+D:\BTL_Anten\Anten\obj\Debug\net8.0\refint\Anten.dll
+D:\BTL_Anten\Anten\obj\Debug\net8.0\Anten.pdb
+D:\BTL_Anten\Anten\obj\Debug\net8.0\Anten.genruntimeconfig.cache
+D:\BTL_Anten\Anten\obj\Debug\net8.0\ref\Anten.dll

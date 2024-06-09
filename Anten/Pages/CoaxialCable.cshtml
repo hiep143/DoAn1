@@ -1,0 +1,85 @@
+@page "/CoaxialCable"
+@model Anten.Models.CoaxialCable
+@{
+    ViewData["Title"] = "Coaxial Cable";
+}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<div>
+    <div class="container mt-5">
+        <img id="matchingImage" class="border border-primary rounded" style="margin-left: 410px;" src="T_DCFEED.png" class="mx-auto d-block">
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2 class="text-center mb-3">Nhập giá trị</h2>
+                <form id="inputForm">
+                    <div class="mb-3 row">
+                        <label for="Er" class="col-sm-2 col-form-label">Er</label>
+                        <div class="col-sm-6">
+                            <input type="number" class="form-control" id="Er" name="Er" value="@Model?.Er" required>
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="Dout" class="col-sm-2 col-form-label">Dout</label>
+                        <div class="col-sm-6">
+                            <input type="number" class="form-control" id="Dout" name="Dout" value="@Model?.Dout" required>
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="Din" class="col-sm-2 col-form-label">Din</label>
+                        <div class="col-sm-6">
+                            <input type="number" class="form-control" id="Din" name="Din" value="@Model?.Din" required>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-6 text-center">
+                <h2>Kết quả</h2>
+                <button type="button" class="btn btn-success" onclick="CalculateCoaxialCable()">Tính toán</button>
+                <div id="result">
+                    <!-- Kết quả tính toán và hình ảnh sẽ được hiển thị ở đây -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function CalculateCoaxialCable() {
+        var Er = document.getElementById("Er").value;
+        var Dout = document.getElementById("Dout").value;
+        var Din = document.getElementById("Din").value;
+
+        $.ajax({
+            type: "POST",
+            url: "/api/CoaxialCable/CalculateCoaxialCable",
+            data: { Er: Er, DoutValue: Dout, DinValue: Din },
+            success: function (response) {
+                if (response && response.length > 0) {
+                    var resultHtml = "<h2>Kết quả tính toán</h2>";
+
+                    if (response[0] !== undefined) {
+                        resultHtml += "<p>Zo = " + response[0][0] + " Ohms</p>";
+                    }
+
+                    if (response[1] !== undefined) {
+                        resultHtml += "<p>Fcutoff = " + response[1][0] + " Hz</p>";
+                    }
+
+                    if (response[2] !== undefined) {
+                        resultHtml += "<p>Cft = " + response[2][0] + " nF</p>";
+                    }
+
+                    document.getElementById("result").innerHTML = resultHtml;
+                } else {
+                    document.getElementById("result").innerHTML = "<p style='color:red;'>Không có kết quả trả về.</p>";
+                }
+            },
+            error: function (xhr, status, error) {
+                document.getElementById("result").innerHTML = "<p style='color:red;'>Có lỗi xảy ra: " + xhr.responseText + "</p>";
+            }
+        });
+    }
+</script>

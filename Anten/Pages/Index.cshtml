@@ -1,0 +1,114 @@
+﻿@page
+@model Anten.Models.MicrostripPatch
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+
+</div>
+
+<div>
+    <div class="container mt-5">
+        <img id="matchingImage" class="border border-primary rounded" style="margin-left: 410px;" src="T_DCFEED.png" class="mx-auto d-block">
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2 class="text-center mb-3">Nhập giá trị</h2>
+                <form id="inputForm">
+                    <div class="mb-3 row">
+                        <label for="Er" class="col-sm-2 col-form-label">Er</label>
+                        <div class="col-sm-6">
+                            <input type="number" class="form-control" id="Er" name="Er" value="@Model?.Er" required>
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="H" class="col-sm-2 col-form-label">H</label>
+                        <div class="col-sm-6">
+                            <input type="number" class="form-control" id="H" name="H" value="@Model?.H" required>
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="Frequency" class="col-sm-2 col-form-label">Tần số (GHz)</label>
+                        <div class="col-sm-6">
+                            <input type="number" class="form-control" id="F" name="F" value="@Model?.F" required>
+                        </div>
+                    </div>
+                    
+
+                </form>
+            </div>
+            <div class="col-lg-6 text-center">
+                <h2>Kết quả</h2>
+                <button type="button" class="btn btn-success" onclick=CalculateMicrostripPatch()>Tính toán</button>
+                <div id="result">
+                    <!-- Kết quả tính toán và hình ảnh sẽ được hiển thị ở đây -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function CalculateMicrostripPatch() {
+        // Lấy giá trị từ form
+        var Er = document.getElementById("Er").value;
+        var H = document.getElementById("H").value;
+        var F = document.getElementById("F").value;
+        
+
+        // Gửi yêu cầu tính toán lên server bằng AJAX
+        $.ajax({
+            type: "POST",
+            url: "/Home/CalculateMicrostripPatch",
+            data: { Er: Er, H: H, F: F},
+            success: function (response) {
+                if (response && response.length > 0) {
+                    // Hiển thị kết quả tính toán ngay trong trang Index
+                    var resultHtml = "<h2>Kết quả tính toán</h2>";
+                
+                    // Hiển thị các giá trị L nếu tồn tại
+                    if (response[0] !== undefined) {
+                        // Kiểm tra số lượng giá trị L
+                        if (response[0].length === 1) {
+                            resultHtml += "<p>L = " + response[0][0] + " mm</p>";
+                        } else {
+                            for (var i = 0; i < response[0].length; i++) {
+                                resultHtml += "<p>L" + (i + 1) + " = " + response[0][i] + " mm</p>";
+                            }
+                        }
+                    }
+
+                    // Kiểm tra số lượng giá trị C
+                    if (response[1] !== undefined) {
+                        if (response[1].length === 1) {
+                            resultHtml += "<p>W = " + response[1][0] + " mm</p>";
+                        } else {
+                            for (var j = 0; j < response[1].length; j++) {
+                                resultHtml += "<p>W" + (j + 1) + " = " + response[1][j] + " mm</p>";
+                            }
+                        }
+                    }
+
+                    document.getElementById("result").innerHTML = resultHtml;
+
+
+                    
+                }
+
+                else {
+                    // Hiển thị thông báo lỗi nếu không có kết quả trả về
+                    document.getElementById("errorText").style.display = "block";
+                    // Xóa kết quả tính toán trước đó (nếu có)
+                    document.getElementById("result").innerHTML = "";
+                }
+            }
+        });
+    }
+
+    
+
+</script>
