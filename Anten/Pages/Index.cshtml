@@ -45,8 +45,20 @@
             <div class="col-lg-6 text-center">
                 <h2>Kết quả</h2>
                 <button type="button" class="btn btn-success" onclick="CalculateMicrostripPatch()">Tính toán</button>
-                <div id="result">
+                <div id="result" class="result-box">
                     <!-- Kết quả tính toán sẽ được hiển thị ở đây -->
+                </div>
+                <div class="mb-3 row">
+                    <label for="W" class="col-sm-4 col-form-label">Chiều rộng (mm):</label>
+                    <div class="col-sm-4">
+                        <input type="number" class="form-control" id="W" readonly>
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="L" class="col-sm-4 col-form-label">Chiều dài (mm):</label>
+                    <div class="col-sm-4">
+                        <input type="number" class="form-control" id="L" readonly>
+                    </div>
                 </div>
             </div>
         </div>
@@ -76,8 +88,6 @@
         var HInput = document.getElementById("H").value;
         var FInput = document.getElementById("F").value;
 
-     
-
         var Er = parseFloat(ErInput);
         var H = parseFloat(HInput);
         var F = parseFloat(FInput);
@@ -88,7 +98,7 @@
             return;
         }
         if (!validateInputs([Er, H, F])) {
-            showErrorMessage("Bạn phải nhập giá trị cho Dielectric Constant, Dielectric Height và Frequency trước khi tính toán");
+            showErrorMessage("Bạn phải nhập giá trị cho hằng số điện môi, chiều cao và tần số trước khi tính toán");
             return;
         }
 
@@ -99,19 +109,22 @@
             data: { Er: Er, H: H, F: F },
             success: function (response) {
                 if (response && response.length > 0) {
-                    var resultHtml = " ";
+                    // Hiển thị giá trị W nếu tồn tại
+                    if (response[0] !== undefined) {
+                        document.getElementById("W").value = response[0][0];
+                    } else {
+                        showErrorMessage("Không có giá trị chiều rộng (mm) trả về từ máy chủ.");
+                    }
 
                     // Hiển thị giá trị L nếu tồn tại
-                    if (response[0] !== undefined) {
-                        resultHtml += "<p>L = " + response[0][0] + " mm</p>";
-                    }
-
-                    // Hiển thị giá trị W nếu tồn tại
                     if (response[1] !== undefined) {
-                        resultHtml += "<p>W = " + response[1][0] + " mm</p>";
+                        document.getElementById("L").value = response[1][0];
+                    } else {
+                        showErrorMessage("Không có giá trị chiều dài (mm) trả về từ máy chủ.");
                     }
 
-                    document.getElementById("result").innerHTML = resultHtml;
+                    // Xóa thông báo lỗi nếu có
+                    hideErrorMessage();
                 } else {
                     showErrorMessage("Không có kết quả trả về từ máy chủ.");
                 }

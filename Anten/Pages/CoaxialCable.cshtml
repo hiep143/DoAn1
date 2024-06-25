@@ -21,9 +21,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <div>
-    <div class="container mt-5 d-flex justify-content-between">
-        <img src="~/images/CT CoaxialCable.jpg" alt="Microstrip Line Example" class="img-fluid small-img2">
-        <img src="~/images/CoaxialCable.jpg" alt="Microstrip Line Example" class="img-fluid small-img1">
+    <div class="container mt-5 d-flex justify-content-center">
+        <img src="~/images/CoaxialCable.jpg" alt="Coaxial Cable" class="img-fluid small-img1">
     </div>
 
     <div class="container mt-5">
@@ -32,7 +31,7 @@
                 <h2 class="text-center mb-3">Nhập giá trị</h2>
                 <form id="inputForm">
                     <div class="mb-3 row">
-                        <label for="Er" class="col-sm-4 col-form-label">Dielectric Constant(&epsilon;<sub>r</sub>):</label>
+                        <label for="Er" class="col-sm-4 col-form-label">Hằng số điện môi(&epsilon;<sub>r</sub>):</label>
                         <div class="col-sm-6">
                             <input type="number" class="form-control" id="Er" name="Er" value="@Model?.Er" required>
                         </div>
@@ -58,6 +57,12 @@
                 <div id="result">
                     <!-- Kết quả tính toán và hình ảnh sẽ được hiển thị ở đây -->
                 </div>
+                <div class="mb-3 row">
+                    <label for="Zo" class="col-sm-4 col-form-label">Zo(&Omega;):</label>
+                    <div class="col-sm-4">
+                        <input type="number" class="form-control" id="Zo" readonly>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -69,7 +74,7 @@
     }
 
     function hideErrorMessage() {
-        document.getElementById("errorText").style.display = "none";
+        document.getElementById("result").innerHTML = "";
     }
 
     function validateInputs(inputs) {
@@ -93,7 +98,7 @@
 
         // Kiểm tra các điều kiện đầu vào trên phía máy khách
         if (!validateInputs([Er, Dout, Din])) {
-            showErrorMessage("Bạn phải nhập giá trị cho Dielectric Constant, Dout và Din trước khi tính toán");
+            showErrorMessage("Bạn phải nhập giá trị cho hằng số điện môi, Dout và Din trước khi tính toán");
             return;
         }
 
@@ -108,29 +113,16 @@
             data: { Er: Er, Dout: Dout, Din: Din },
             success: function (response) {
                 if (response && response.length > 0) {
-                    var resultHtml = "<h2>Kết quả tính toán</h2>";
-
                     if (response[0] !== undefined) {
-                        resultHtml += "<p>Zo = " + response[0][0] + " Ohms</p>";
+                        document.getElementById("Zo").value = response[0][0];
                     }
-
-                    if (response[1] !== undefined) {
-                        resultHtml += "<p>Fcutoff = " + response[1][0] + " GHz</p>";
-                    }
-
-                    if (response[2] !== undefined) {
-                        resultHtml += "<p>Cft = " + response[2][0] + " pF</p>";
-                    }
-                    if (response[3] !== undefined) {
-                        resultHtml += "<p>Ift = " + response[3][0] + " nH</p>";
-                    }
-                    document.getElementById("result").innerHTML = resultHtml;
+                    hideErrorMessage(); // Ẩn thông báo lỗi khi có kết quả hợp lệ
                 } else {
-                    document.getElementById("result").innerHTML = "<p style='color:red;'>Không có kết quả trả về.</p>";
+                    showErrorMessage("Không có kết quả trả về từ máy chủ.");
                 }
             },
             error: function (xhr, status, error) {
-                document.getElementById("result").innerHTML = "<p style='color:red;'>Có lỗi xảy ra: " + xhr.responseText + "</p>";
+                showErrorMessage("Có lỗi xảy ra: " + xhr.responseText);
             }
         });
     }

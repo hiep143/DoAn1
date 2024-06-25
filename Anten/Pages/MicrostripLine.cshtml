@@ -53,8 +53,8 @@
                     <input type="number" class="form-control" id="El" name="El">
                 </div>
                 <div class="col-sm-3 d-flex align-items-center justify-content-center flex-column">
-                    <button type="button" class="btn btn-success mb-2" onclick="CalculateCase1()">Synthesize</button>
-                    <button type="button" class="btn btn-primary" onclick="CalculateCase2()">Analyze</button>
+                    <button type="button" class="btn btn-success mb-2" onclick="CalculateCase1()">Tổng hợp</button>
+                    <button type="button" class="btn btn-primary" onclick="CalculateCase2()">Phân tích</button>
                 </div>
                 <div class="col-sm-2">
                     <label for="wValue" class="col-form-label">Chiều rộng(mm)</label>
@@ -91,8 +91,14 @@
         var ZoValue = parseFloat(document.getElementById("ZoValue").value);
         var El = parseFloat(document.getElementById("El").value);
 
-        if (!validateInputs([Er, H, F, ZoValue, El])) {
+        if (Er <= 0 || H <= 0 || F <=0 || ZoValue <=0 || El <= 0 ) {
             showErrorMessage("Các giá trị nhập vào phải lớn hơn 0");
+            return;
+        }
+
+
+        if (!validateInputs([Er, H, F, ZoValue, El])) {
+            showErrorMessage("Bạn phải nhập giá trị cho hằng số điện môi, chiều cao, tần số, Zo và độ dài điện trước khi tính toán");
             return;
         }
 
@@ -118,8 +124,14 @@
         var WValue = parseFloat(document.getElementById("wValue").value);
         var LValue = parseFloat(document.getElementById("lValue").value);
 
-        if (!validateInputs([Er, H, F, WValue, LValue])) {
+        if (Er <= 0 || H <= 0 || F <=0 || WValue <=0 || LValue <= 0 ) {
             showErrorMessage("Các giá trị nhập vào phải lớn hơn 0");
+            return;
+        }
+
+
+        if (!validateInputs([Er, H, F, WValue, LValue])) {
+            showErrorMessage("Bạn phải nhập giá trị cho hằng số điện môi, chiều cao, tần số, Chiều rộng và chiều dài trước khi tính toán");
             return;
         }
 

@@ -33,7 +33,7 @@ namespace Anten.Models
             double Ereff = (Er + 1) / 2 + ((Er - 1) / 2) / Math.Sqrt(1 + 12 * H.Meters / W.Meters);
             Length delta_L = Length.FromMeters(H.Meters * 0.412 * ((Ereff + 0.3) * (W.Meters / H.Meters + 0.264)) / ((Ereff - 0.258) * (W.Meters / H.Meters + 0.8)));
             Length L = Length.FromMeters(Vo.MetersPerSecond / (2 * Freq.Hertz * Math.Sqrt(Ereff)) - 2 * delta_L.Meters);
-            MPResults = new double[][] { new double[] { L.Millimeters }, new double[] { W.Millimeters } };
+            MPResults = new double[][] { new double[] { W.Millimeters }, new double[] { L.Millimeters } };
         }
     }
 }

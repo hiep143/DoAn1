@@ -54,12 +54,12 @@ namespace Anten.Controllers
         }
 
         [HttpPost]
-        public IActionResult CalculateCase1(double er, double h, double f, double zoValue)
+        public IActionResult CalculateCase1(double er, double h, double f, double zoValue, double El)
         {
             try
             {
                 MicrostripLine line = new MicrostripLine(er, h, f);
-                var result = line.CalculateCase1(zoValue);
+                var result = line.CalculateCase1(zoValue, El);
                 if (result == null || result.Length == 0)
                 {
                     return BadRequest("No results calculated.");
@@ -73,12 +73,12 @@ namespace Anten.Controllers
         }
 
         [HttpPost]
-        public IActionResult CalculateCase2(double er, double h, double f, double wValue)
+        public IActionResult CalculateCase2(double er, double h, double f, double wValue, double lValue)
         {
             try
             {
                 MicrostripLine line = new MicrostripLine(er, h, f);
-                var result = line.CalculateCase2(wValue);
+                var result = line.CalculateCase2(wValue, lValue);
                 if (result == null || result.Length == 0)
                 {
                     return BadRequest("No results calculated.");
