@@ -188,3 +188,231 @@ D:\BTL_Anten - Copy (3) - Copy - Copy\Anten\obj\Debug\net8.0\scopedcss\projectbu
 D:\BTL_Anten - Copy (3) - Copy - Copy\Anten\obj\Debug\net8.0\Anten.csproj.Up2Date
 D:\BTL_Anten - Copy (3) - Copy - Copy\Anten\obj\Debug\net8.0\Anten.genruntimeconfig.cache
 D:\BTL_Anten - Copy (3) - Copy - Copy\Anten\obj\Debug\net8.0\ref\Anten.dll
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy\Anten\bin\Debug\net8.0\appsettings.Development.json
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy\Anten\bin\Debug\net8.0\appsettings.json
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy\Anten\bin\Debug\net8.0\Anten.staticwebassets.runtime.json
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy\Anten\bin\Debug\net8.0\Anten.exe
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy\Anten\bin\Debug\net8.0\Anten.deps.json
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy\Anten\bin\Debug\net8.0\Anten.runtimeconfig.json
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy\Anten\bin\Debug\net8.0\Anten.dll
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy\Anten\bin\Debug\net8.0\Anten.pdb
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy\Anten\bin\Debug\net8.0\UnitsNet.dll
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy\Anten\bin\Debug\net8.0\fr-CA\UnitsNet.resources.dll
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy\Anten\bin\Debug\net8.0\nb-NO\UnitsNet.resources.dll
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy\Anten\bin\Debug\net8.0\ru-RU\UnitsNet.resources.dll
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy\Anten\bin\Debug\net8.0\zh-CN\UnitsNet.resources.dll
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy\Anten\obj\Debug\net8.0\Anten.csproj.AssemblyReference.cache
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy\Anten\obj\Debug\net8.0\Anten.GeneratedMSBuildEditorConfig.editorconfig
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy\Anten\obj\Debug\net8.0\Anten.AssemblyInfoInputs.cache
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy\Anten\obj\Debug\net8.0\Anten.AssemblyInfo.cs
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy\Anten\obj\Debug\net8.0\Anten.csproj.CoreCompileInputs.cache
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy\Anten\obj\Debug\net8.0\Anten.MvcApplicationPartsAssemblyInfo.cache
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy\Anten\obj\Debug\net8.0\Anten.RazorAssemblyInfo.cache
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy\Anten\obj\Debug\net8.0\Anten.RazorAssemblyInfo.cs
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy\Anten\obj\Debug\net8.0\Anten.sourcelink.json
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy\Anten\obj\Debug\net8.0\staticwebassets.build.json
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy\Anten\obj\Debug\net8.0\staticwebassets.development.json
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy\Anten\obj\Debug\net8.0\staticwebassets\msbuild.Anten.Microsoft.AspNetCore.StaticWebAssets.props
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy\Anten\obj\Debug\net8.0\staticwebassets\msbuild.build.Anten.props
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy\Anten\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Anten.props
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy\Anten\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Anten.props
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy\Anten\obj\Debug\net8.0\staticwebassets.pack.json
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy\Anten\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy\Anten\obj\Debug\net8.0\scopedcss\bundle\Anten.styles.css
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy\Anten\obj\Debug\net8.0\scopedcss\projectbundle\Anten.bundle.scp.css
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy\Anten\obj\Debug\net8.0\Anten.csproj.Up2Date
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy\Anten\obj\Debug\net8.0\Anten.dll
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy\Anten\obj\Debug\net8.0\refint\Anten.dll
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy\Anten\obj\Debug\net8.0\Anten.pdb
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy\Anten\obj\Debug\net8.0\Anten.genruntimeconfig.cache
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy\Anten\obj\Debug\net8.0\ref\Anten.dll
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy - Copy\Anten\bin\Debug\net8.0\appsettings.Development.json
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy - Copy\Anten\bin\Debug\net8.0\appsettings.json
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy - Copy\Anten\bin\Debug\net8.0\Anten.staticwebassets.runtime.json
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy - Copy\Anten\bin\Debug\net8.0\Anten.exe
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy - Copy\Anten\bin\Debug\net8.0\Anten.deps.json
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy - Copy\Anten\bin\Debug\net8.0\Anten.runtimeconfig.json
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy - Copy\Anten\bin\Debug\net8.0\Anten.dll
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy - Copy\Anten\bin\Debug\net8.0\Anten.pdb
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy - Copy\Anten\bin\Debug\net8.0\UnitsNet.dll
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy - Copy\Anten\bin\Debug\net8.0\fr-CA\UnitsNet.resources.dll
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy - Copy\Anten\bin\Debug\net8.0\nb-NO\UnitsNet.resources.dll
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy - Copy\Anten\bin\Debug\net8.0\ru-RU\UnitsNet.resources.dll
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy - Copy\Anten\bin\Debug\net8.0\zh-CN\UnitsNet.resources.dll
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy - Copy\Anten\obj\Debug\net8.0\Anten.csproj.AssemblyReference.cache
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy - Copy\Anten\obj\Debug\net8.0\Anten.GeneratedMSBuildEditorConfig.editorconfig
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy - Copy\Anten\obj\Debug\net8.0\Anten.AssemblyInfoInputs.cache
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy - Copy\Anten\obj\Debug\net8.0\Anten.AssemblyInfo.cs
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy - Copy\Anten\obj\Debug\net8.0\Anten.csproj.CoreCompileInputs.cache
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy - Copy\Anten\obj\Debug\net8.0\Anten.MvcApplicationPartsAssemblyInfo.cache
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy - Copy\Anten\obj\Debug\net8.0\Anten.RazorAssemblyInfo.cache
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy - Copy\Anten\obj\Debug\net8.0\Anten.RazorAssemblyInfo.cs
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy - Copy\Anten\obj\Debug\net8.0\Anten.sourcelink.json
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy - Copy\Anten\obj\Debug\net8.0\staticwebassets.build.json
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy - Copy\Anten\obj\Debug\net8.0\staticwebassets.development.json
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy - Copy\Anten\obj\Debug\net8.0\staticwebassets\msbuild.Anten.Microsoft.AspNetCore.StaticWebAssets.props
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy - Copy\Anten\obj\Debug\net8.0\staticwebassets\msbuild.build.Anten.props
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy - Copy\Anten\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Anten.props
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy - Copy\Anten\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Anten.props
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy - Copy\Anten\obj\Debug\net8.0\staticwebassets.pack.json
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy - Copy\Anten\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy - Copy\Anten\obj\Debug\net8.0\scopedcss\bundle\Anten.styles.css
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy - Copy\Anten\obj\Debug\net8.0\scopedcss\projectbundle\Anten.bundle.scp.css
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy - Copy\Anten\obj\Debug\net8.0\Anten.csproj.Up2Date
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy - Copy\Anten\obj\Debug\net8.0\Anten.dll
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy - Copy\Anten\obj\Debug\net8.0\refint\Anten.dll
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy - Copy\Anten\obj\Debug\net8.0\Anten.pdb
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy - Copy\Anten\obj\Debug\net8.0\Anten.genruntimeconfig.cache
+D:\BTL_Anten - Copy (4) - Copy - Copy - Copy - Copy\Anten\obj\Debug\net8.0\ref\Anten.dll
+D:\BTL_Anten_Oke\Anten\bin\Debug\net8.0\appsettings.Development.json
+D:\BTL_Anten_Oke\Anten\bin\Debug\net8.0\appsettings.json
+D:\BTL_Anten_Oke\Anten\bin\Debug\net8.0\Anten.staticwebassets.runtime.json
+D:\BTL_Anten_Oke\Anten\bin\Debug\net8.0\Anten.exe
+D:\BTL_Anten_Oke\Anten\bin\Debug\net8.0\Anten.deps.json
+D:\BTL_Anten_Oke\Anten\bin\Debug\net8.0\Anten.runtimeconfig.json
+D:\BTL_Anten_Oke\Anten\bin\Debug\net8.0\Anten.dll
+D:\BTL_Anten_Oke\Anten\bin\Debug\net8.0\Anten.pdb
+D:\BTL_Anten_Oke\Anten\bin\Debug\net8.0\UnitsNet.dll
+D:\BTL_Anten_Oke\Anten\bin\Debug\net8.0\fr-CA\UnitsNet.resources.dll
+D:\BTL_Anten_Oke\Anten\bin\Debug\net8.0\nb-NO\UnitsNet.resources.dll
+D:\BTL_Anten_Oke\Anten\bin\Debug\net8.0\ru-RU\UnitsNet.resources.dll
+D:\BTL_Anten_Oke\Anten\bin\Debug\net8.0\zh-CN\UnitsNet.resources.dll
+D:\BTL_Anten_Oke\Anten\obj\Debug\net8.0\Anten.csproj.AssemblyReference.cache
+D:\BTL_Anten_Oke\Anten\obj\Debug\net8.0\Anten.GeneratedMSBuildEditorConfig.editorconfig
+D:\BTL_Anten_Oke\Anten\obj\Debug\net8.0\Anten.AssemblyInfoInputs.cache
+D:\BTL_Anten_Oke\Anten\obj\Debug\net8.0\Anten.AssemblyInfo.cs
+D:\BTL_Anten_Oke\Anten\obj\Debug\net8.0\Anten.csproj.CoreCompileInputs.cache
+D:\BTL_Anten_Oke\Anten\obj\Debug\net8.0\Anten.MvcApplicationPartsAssemblyInfo.cache
+D:\BTL_Anten_Oke\Anten\obj\Debug\net8.0\Anten.RazorAssemblyInfo.cache
+D:\BTL_Anten_Oke\Anten\obj\Debug\net8.0\Anten.RazorAssemblyInfo.cs
+D:\BTL_Anten_Oke\Anten\obj\Debug\net8.0\Anten.sourcelink.json
+D:\BTL_Anten_Oke\Anten\obj\Debug\net8.0\staticwebassets.build.json
+D:\BTL_Anten_Oke\Anten\obj\Debug\net8.0\staticwebassets.development.json
+D:\BTL_Anten_Oke\Anten\obj\Debug\net8.0\staticwebassets\msbuild.Anten.Microsoft.AspNetCore.StaticWebAssets.props
+D:\BTL_Anten_Oke\Anten\obj\Debug\net8.0\staticwebassets\msbuild.build.Anten.props
+D:\BTL_Anten_Oke\Anten\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Anten.props
+D:\BTL_Anten_Oke\Anten\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Anten.props
+D:\BTL_Anten_Oke\Anten\obj\Debug\net8.0\staticwebassets.pack.json
+D:\BTL_Anten_Oke\Anten\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\BTL_Anten_Oke\Anten\obj\Debug\net8.0\scopedcss\bundle\Anten.styles.css
+D:\BTL_Anten_Oke\Anten\obj\Debug\net8.0\scopedcss\projectbundle\Anten.bundle.scp.css
+D:\BTL_Anten_Oke\Anten\obj\Debug\net8.0\Anten.csproj.Up2Date
+D:\BTL_Anten_Oke\Anten\obj\Debug\net8.0\Anten.dll
+D:\BTL_Anten_Oke\Anten\obj\Debug\net8.0\refint\Anten.dll
+D:\BTL_Anten_Oke\Anten\obj\Debug\net8.0\Anten.pdb
+D:\BTL_Anten_Oke\Anten\obj\Debug\net8.0\Anten.genruntimeconfig.cache
+D:\BTL_Anten_Oke\Anten\obj\Debug\net8.0\ref\Anten.dll
+D:\BTL_Anten_Oke - Copy\Anten\obj\Debug\net8.0\Anten.csproj.AssemblyReference.cache
+D:\BTL_Anten_Oke - Copy\Anten\obj\Debug\net8.0\Anten.GeneratedMSBuildEditorConfig.editorconfig
+D:\BTL_Anten_Oke - Copy\Anten\obj\Debug\net8.0\Anten.AssemblyInfoInputs.cache
+D:\BTL_Anten_Oke - Copy\Anten\obj\Debug\net8.0\Anten.AssemblyInfo.cs
+D:\BTL_Anten_Oke - Copy\Anten\obj\Debug\net8.0\Anten.csproj.CoreCompileInputs.cache
+D:\BTL_Anten_Oke - Copy\Anten\obj\Debug\net8.0\Anten.MvcApplicationPartsAssemblyInfo.cache
+D:\BTL_Anten_Oke - Copy\Anten\obj\Debug\net8.0\Anten.RazorAssemblyInfo.cache
+D:\BTL_Anten_Oke - Copy\Anten\obj\Debug\net8.0\Anten.RazorAssemblyInfo.cs
+D:\BTL_Anten_Oke - Copy\Anten\obj\Debug\net8.0\Anten.sourcelink.json
+D:\BTL_Anten_Oke - Copy\Anten\obj\Debug\net8.0\Anten.dll
+D:\BTL_Anten_Oke - Copy\Anten\obj\Debug\net8.0\refint\Anten.dll
+D:\BTL_Anten_Oke - Copy\Anten\obj\Debug\net8.0\Anten.pdb
+D:\BTL_Anten_Oke - Copy\Anten\bin\Debug\net8.0\appsettings.Development.json
+D:\BTL_Anten_Oke - Copy\Anten\bin\Debug\net8.0\appsettings.json
+D:\BTL_Anten_Oke - Copy\Anten\bin\Debug\net8.0\Anten.staticwebassets.runtime.json
+D:\BTL_Anten_Oke - Copy\Anten\bin\Debug\net8.0\Anten.exe
+D:\BTL_Anten_Oke - Copy\Anten\bin\Debug\net8.0\Anten.deps.json
+D:\BTL_Anten_Oke - Copy\Anten\bin\Debug\net8.0\Anten.runtimeconfig.json
+D:\BTL_Anten_Oke - Copy\Anten\bin\Debug\net8.0\Anten.dll
+D:\BTL_Anten_Oke - Copy\Anten\bin\Debug\net8.0\Anten.pdb
+D:\BTL_Anten_Oke - Copy\Anten\bin\Debug\net8.0\UnitsNet.dll
+D:\BTL_Anten_Oke - Copy\Anten\bin\Debug\net8.0\fr-CA\UnitsNet.resources.dll
+D:\BTL_Anten_Oke - Copy\Anten\bin\Debug\net8.0\nb-NO\UnitsNet.resources.dll
+D:\BTL_Anten_Oke - Copy\Anten\bin\Debug\net8.0\ru-RU\UnitsNet.resources.dll
+D:\BTL_Anten_Oke - Copy\Anten\bin\Debug\net8.0\zh-CN\UnitsNet.resources.dll
+D:\BTL_Anten_Oke - Copy\Anten\obj\Debug\net8.0\staticwebassets.build.json
+D:\BTL_Anten_Oke - Copy\Anten\obj\Debug\net8.0\staticwebassets.development.json
+D:\BTL_Anten_Oke - Copy\Anten\obj\Debug\net8.0\staticwebassets\msbuild.Anten.Microsoft.AspNetCore.StaticWebAssets.props
+D:\BTL_Anten_Oke - Copy\Anten\obj\Debug\net8.0\staticwebassets\msbuild.build.Anten.props
+D:\BTL_Anten_Oke - Copy\Anten\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Anten.props
+D:\BTL_Anten_Oke - Copy\Anten\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Anten.props
+D:\BTL_Anten_Oke - Copy\Anten\obj\Debug\net8.0\staticwebassets.pack.json
+D:\BTL_Anten_Oke - Copy\Anten\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\BTL_Anten_Oke - Copy\Anten\obj\Debug\net8.0\scopedcss\bundle\Anten.styles.css
+D:\BTL_Anten_Oke - Copy\Anten\obj\Debug\net8.0\scopedcss\projectbundle\Anten.bundle.scp.css
+D:\BTL_Anten_Oke - Copy\Anten\obj\Debug\net8.0\Anten.csproj.Up2Date
+D:\BTL_Anten_Oke - Copy\Anten\obj\Debug\net8.0\Anten.genruntimeconfig.cache
+D:\BTL_Anten_Oke - Copy\Anten\obj\Debug\net8.0\ref\Anten.dll
+D:\BTL_Anten_Oke - Copy - Copy\Anten\bin\Debug\net8.0\appsettings.Development.json
+D:\BTL_Anten_Oke - Copy - Copy\Anten\bin\Debug\net8.0\appsettings.json
+D:\BTL_Anten_Oke - Copy - Copy\Anten\bin\Debug\net8.0\Anten.staticwebassets.runtime.json
+D:\BTL_Anten_Oke - Copy - Copy\Anten\bin\Debug\net8.0\Anten.exe
+D:\BTL_Anten_Oke - Copy - Copy\Anten\bin\Debug\net8.0\Anten.deps.json
+D:\BTL_Anten_Oke - Copy - Copy\Anten\bin\Debug\net8.0\Anten.runtimeconfig.json
+D:\BTL_Anten_Oke - Copy - Copy\Anten\bin\Debug\net8.0\Anten.dll
+D:\BTL_Anten_Oke - Copy - Copy\Anten\bin\Debug\net8.0\Anten.pdb
+D:\BTL_Anten_Oke - Copy - Copy\Anten\bin\Debug\net8.0\UnitsNet.dll
+D:\BTL_Anten_Oke - Copy - Copy\Anten\bin\Debug\net8.0\fr-CA\UnitsNet.resources.dll
+D:\BTL_Anten_Oke - Copy - Copy\Anten\bin\Debug\net8.0\nb-NO\UnitsNet.resources.dll
+D:\BTL_Anten_Oke - Copy - Copy\Anten\bin\Debug\net8.0\ru-RU\UnitsNet.resources.dll
+D:\BTL_Anten_Oke - Copy - Copy\Anten\bin\Debug\net8.0\zh-CN\UnitsNet.resources.dll
+D:\BTL_Anten_Oke - Copy - Copy\Anten\obj\Debug\net8.0\Anten.csproj.AssemblyReference.cache
+D:\BTL_Anten_Oke - Copy - Copy\Anten\obj\Debug\net8.0\Anten.GeneratedMSBuildEditorConfig.editorconfig
+D:\BTL_Anten_Oke - Copy - Copy\Anten\obj\Debug\net8.0\Anten.AssemblyInfoInputs.cache
+D:\BTL_Anten_Oke - Copy - Copy\Anten\obj\Debug\net8.0\Anten.AssemblyInfo.cs
+D:\BTL_Anten_Oke - Copy - Copy\Anten\obj\Debug\net8.0\Anten.csproj.CoreCompileInputs.cache
+D:\BTL_Anten_Oke - Copy - Copy\Anten\obj\Debug\net8.0\Anten.MvcApplicationPartsAssemblyInfo.cache
+D:\BTL_Anten_Oke - Copy - Copy\Anten\obj\Debug\net8.0\Anten.RazorAssemblyInfo.cache
+D:\BTL_Anten_Oke - Copy - Copy\Anten\obj\Debug\net8.0\Anten.RazorAssemblyInfo.cs
+D:\BTL_Anten_Oke - Copy - Copy\Anten\obj\Debug\net8.0\Anten.sourcelink.json
+D:\BTL_Anten_Oke - Copy - Copy\Anten\obj\Debug\net8.0\staticwebassets.build.json
+D:\BTL_Anten_Oke - Copy - Copy\Anten\obj\Debug\net8.0\staticwebassets.development.json
+D:\BTL_Anten_Oke - Copy - Copy\Anten\obj\Debug\net8.0\staticwebassets\msbuild.Anten.Microsoft.AspNetCore.StaticWebAssets.props
+D:\BTL_Anten_Oke - Copy - Copy\Anten\obj\Debug\net8.0\staticwebassets\msbuild.build.Anten.props
+D:\BTL_Anten_Oke - Copy - Copy\Anten\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Anten.props
+D:\BTL_Anten_Oke - Copy - Copy\Anten\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Anten.props
+D:\BTL_Anten_Oke - Copy - Copy\Anten\obj\Debug\net8.0\staticwebassets.pack.json
+D:\BTL_Anten_Oke - Copy - Copy\Anten\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\BTL_Anten_Oke - Copy - Copy\Anten\obj\Debug\net8.0\scopedcss\bundle\Anten.styles.css
+D:\BTL_Anten_Oke - Copy - Copy\Anten\obj\Debug\net8.0\scopedcss\projectbundle\Anten.bundle.scp.css
+D:\BTL_Anten_Oke - Copy - Copy\Anten\obj\Debug\net8.0\Anten.csproj.Up2Date
+D:\BTL_Anten_Oke - Copy - Copy\Anten\obj\Debug\net8.0\Anten.dll
+D:\BTL_Anten_Oke - Copy - Copy\Anten\obj\Debug\net8.0\refint\Anten.dll
+D:\BTL_Anten_Oke - Copy - Copy\Anten\obj\Debug\net8.0\Anten.pdb
+D:\BTL_Anten_Oke - Copy - Copy\Anten\obj\Debug\net8.0\Anten.genruntimeconfig.cache
+D:\BTL_Anten_Oke - Copy - Copy\Anten\obj\Debug\net8.0\ref\Anten.dll
+D:\BTL_Anten_Oke - Copy - Copy - Copy\Anten\bin\Debug\net8.0\appsettings.Development.json
+D:\BTL_Anten_Oke - Copy - Copy - Copy\Anten\bin\Debug\net8.0\appsettings.json
+D:\BTL_Anten_Oke - Copy - Copy - Copy\Anten\bin\Debug\net8.0\Anten.staticwebassets.runtime.json
+D:\BTL_Anten_Oke - Copy - Copy - Copy\Anten\bin\Debug\net8.0\Anten.exe
+D:\BTL_Anten_Oke - Copy - Copy - Copy\Anten\bin\Debug\net8.0\Anten.deps.json
+D:\BTL_Anten_Oke - Copy - Copy - Copy\Anten\bin\Debug\net8.0\Anten.runtimeconfig.json
+D:\BTL_Anten_Oke - Copy - Copy - Copy\Anten\bin\Debug\net8.0\Anten.dll
+D:\BTL_Anten_Oke - Copy - Copy - Copy\Anten\bin\Debug\net8.0\Anten.pdb
+D:\BTL_Anten_Oke - Copy - Copy - Copy\Anten\bin\Debug\net8.0\UnitsNet.dll
+D:\BTL_Anten_Oke - Copy - Copy - Copy\Anten\bin\Debug\net8.0\fr-CA\UnitsNet.resources.dll
+D:\BTL_Anten_Oke - Copy - Copy - Copy\Anten\bin\Debug\net8.0\nb-NO\UnitsNet.resources.dll
+D:\BTL_Anten_Oke - Copy - Copy - Copy\Anten\bin\Debug\net8.0\ru-RU\UnitsNet.resources.dll
+D:\BTL_Anten_Oke - Copy - Copy - Copy\Anten\bin\Debug\net8.0\zh-CN\UnitsNet.resources.dll
+D:\BTL_Anten_Oke - Copy - Copy - Copy\Anten\obj\Debug\net8.0\Anten.csproj.AssemblyReference.cache
+D:\BTL_Anten_Oke - Copy - Copy - Copy\Anten\obj\Debug\net8.0\Anten.GeneratedMSBuildEditorConfig.editorconfig
+D:\BTL_Anten_Oke - Copy - Copy - Copy\Anten\obj\Debug\net8.0\Anten.AssemblyInfoInputs.cache
+D:\BTL_Anten_Oke - Copy - Copy - Copy\Anten\obj\Debug\net8.0\Anten.AssemblyInfo.cs
+D:\BTL_Anten_Oke - Copy - Copy - Copy\Anten\obj\Debug\net8.0\Anten.csproj.CoreCompileInputs.cache
+D:\BTL_Anten_Oke - Copy - Copy - Copy\Anten\obj\Debug\net8.0\Anten.MvcApplicationPartsAssemblyInfo.cache
+D:\BTL_Anten_Oke - Copy - Copy - Copy\Anten\obj\Debug\net8.0\Anten.RazorAssemblyInfo.cache
+D:\BTL_Anten_Oke - Copy - Copy - Copy\Anten\obj\Debug\net8.0\Anten.RazorAssemblyInfo.cs
+D:\BTL_Anten_Oke - Copy - Copy - Copy\Anten\obj\Debug\net8.0\Anten.sourcelink.json
+D:\BTL_Anten_Oke - Copy - Copy - Copy\Anten\obj\Debug\net8.0\staticwebassets.build.json
+D:\BTL_Anten_Oke - Copy - Copy - Copy\Anten\obj\Debug\net8.0\staticwebassets.development.json
+D:\BTL_Anten_Oke - Copy - Copy - Copy\Anten\obj\Debug\net8.0\staticwebassets\msbuild.Anten.Microsoft.AspNetCore.StaticWebAssets.props
+D:\BTL_Anten_Oke - Copy - Copy - Copy\Anten\obj\Debug\net8.0\staticwebassets\msbuild.build.Anten.props
+D:\BTL_Anten_Oke - Copy - Copy - Copy\Anten\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Anten.props
+D:\BTL_Anten_Oke - Copy - Copy - Copy\Anten\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Anten.props
+D:\BTL_Anten_Oke - Copy - Copy - Copy\Anten\obj\Debug\net8.0\staticwebassets.pack.json
+D:\BTL_Anten_Oke - Copy - Copy - Copy\Anten\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\BTL_Anten_Oke - Copy - Copy - Copy\Anten\obj\Debug\net8.0\scopedcss\bundle\Anten.styles.css
+D:\BTL_Anten_Oke - Copy - Copy - Copy\Anten\obj\Debug\net8.0\scopedcss\projectbundle\Anten.bundle.scp.css
+D:\BTL_Anten_Oke - Copy - Copy - Copy\Anten\obj\Debug\net8.0\Anten.csproj.Up2Date
+D:\BTL_Anten_Oke - Copy - Copy - Copy\Anten\obj\Debug\net8.0\Anten.dll
+D:\BTL_Anten_Oke - Copy - Copy - Copy\Anten\obj\Debug\net8.0\refint\Anten.dll
+D:\BTL_Anten_Oke - Copy - Copy - Copy\Anten\obj\Debug\net8.0\Anten.pdb
+D:\BTL_Anten_Oke - Copy - Copy - Copy\Anten\obj\Debug\net8.0\Anten.genruntimeconfig.cache
+D:\BTL_Anten_Oke - Copy - Copy - Copy\Anten\obj\Debug\net8.0\ref\Anten.dll

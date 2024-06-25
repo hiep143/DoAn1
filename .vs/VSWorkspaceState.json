@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Anten",
+    "\\Anten\\Controller",
+    "\\Anten\\Pages"
   ],
-  "SelectedNode": "\\Anten.sln",
+  "SelectedNode": "\\Anten\\Pages\\CoaxialCable.cshtml",
   "PreviewInSolutionExplorer": false
 }

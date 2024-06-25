@@ -1,0 +1,140 @@
+﻿@page "/MicrostripLine"
+@model Anten.Models.MicrostripLine
+@{
+    ViewData["Title"] = "Microstrip Line";
+}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<style>
+    .small-img {
+        width: 40%; /* You can adjust the percentage as needed */
+        height: auto;
+    }
+</style>
+
+<div>
+    <div class="text-center mb-4">
+        <img src="~/images/MicrostripLine.jpg" alt="Microstrip Line" class="img-fluid small-img">
+    </div>
+    <div class="container mt-5">
+        <h2 class="text-center mb-3">Nhập giá trị</h2>
+
+        <form id="inputForm">
+            <!-- Các mục Er, H và F xếp hàng dọc và căn giữa -->
+            <div class="row justify-content-center">
+                <div class="col-sm-4">
+                    <div class="mb-3 row">
+                        <label for="Er" class="col-sm-6 col-form-label">Hằng số điện môi(&epsilon;<sub>r</sub>):</label>
+                        <div class="col-sm-6">
+                            <input type="number" class="form-control" id="Er" name="Er" required>
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="H" class="col-sm-6 col-form-label">Chiều cao (h):</label>
+                        <div class="col-sm-6">
+                            <input type="number" class="form-control" id="H" name="H" required>
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="F" class="col-sm-6 col-form-label">Tần số (GHz):</label>
+                        <div class="col-sm-6">
+                            <input type="number" class="form-control" id="F" name="F" required>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Mục Zo và El xếp hàng dọc, Width và Length xếp hàng dọc với các nút ở giữa -->
+            <div class="row mb-3 justify-content-center">
+                <div class="col-sm-2">
+                    <label for="ZoValue" class="col-form-label">Zo(&Omega;)</label>
+                    <input type="number" class="form-control" id="ZoValue" name="ZoValue">
+                    <label for="El" class="col-form-label mt-2">Độ dài điện (deg)</label>
+                    <input type="number" class="form-control" id="El" name="El">
+                </div>
+                <div class="col-sm-3 d-flex align-items-center justify-content-center flex-column">
+                    <button type="button" class="btn btn-success mb-2" onclick="CalculateCase1()">Synthesize</button>
+                    <button type="button" class="btn btn-primary" onclick="CalculateCase2()">Analyze</button>
+                </div>
+                <div class="col-sm-2">
+                    <label for="wValue" class="col-form-label">Chiều rộng(mm)</label>
+                    <input type="number" class="form-control" id="wValue" name="wValue">
+                    <label for="lValue" class="col-form-label mt-2">Chiều dài(mm)</label>
+                    <input type="number" class="form-control" id="lValue" name="lValue">
+                </div>
+            </div>
+        </form>
+        <div id="result" class="mt-5 text-center">
+            <!-- Kết quả tính toán sẽ được hiển thị ở đây -->
+        </div>
+    </div>
+</div>
+
+<script>
+    function showErrorMessage(message) {
+        document.getElementById("result").innerHTML = "<p style='color:red;'>" + message + "</p>";
+    }
+
+    function validateInputs(inputs) {
+        for (var i = 0; i < inputs.length; i++) {
+            if (isNaN(inputs[i]) || inputs[i] <= 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    function CalculateCase1() {
+        var Er = parseFloat(document.getElementById("Er").value);
+        var H = parseFloat(document.getElementById("H").value);
+        var F = parseFloat(document.getElementById("F").value);
+        var ZoValue = parseFloat(document.getElementById("ZoValue").value);
+        var El = parseFloat(document.getElementById("El").value);
+
+        if (!validateInputs([Er, H, F, ZoValue, El])) {
+            showErrorMessage("Các giá trị nhập vào phải lớn hơn 0");
+            return;
+        }
+
+        $.ajax({
+            type: "POST",
+            url: "/MicrostripLine/CalculateCase1",
+            data: { er: Er, h: H, f: F, zoValue: ZoValue, El: El },
+            success: function (response) {
+                document.getElementById("wValue").value = response[0];
+                document.getElementById("lValue").value = response[1];
+                document.getElementById("result").innerHTML = "";
+            },
+            error: function (xhr, status, error) {
+                showErrorMessage("Có lỗi xảy ra: " + xhr.responseText);
+            }
+        });
+    }
+
+    function CalculateCase2() {
+        var Er = parseFloat(document.getElementById("Er").value);
+        var H = parseFloat(document.getElementById("H").value);
+        var F = parseFloat(document.getElementById("F").value);
+        var WValue = parseFloat(document.getElementById("wValue").value);
+        var LValue = parseFloat(document.getElementById("lValue").value);
+
+        if (!validateInputs([Er, H, F, WValue, LValue])) {
+            showErrorMessage("Các giá trị nhập vào phải lớn hơn 0");
+            return;
+        }
+
+        $.ajax({
+            type: "POST",
+            url: "/MicrostripLine/CalculateCase2",
+            data: { er: Er, h: H, f: F, wValue: WValue, lValue: LValue },
+            success: function (response) {
+                document.getElementById("ZoValue").value = response[0];
+                document.getElementById("El").value = response[1];
+                document.getElementById("result").innerHTML = "";
+            },
+            error: function (xhr, status, error) {
+                showErrorMessage("Có lỗi xảy ra: " + xhr.responseText);
+            }
+        });
+    }
+</script>

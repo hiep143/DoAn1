@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BTL_Anten - Copy (3) - Copy - Copy\\Anten\\Anten.csproj": {}
+    "D:\\DoAn1\\Anten\\Anten.csproj": {}
   },
   "projects": {
-    "D:\\BTL_Anten - Copy (3) - Copy - Copy\\Anten\\Anten.csproj": {
+    "D:\\DoAn1\\Anten\\Anten.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BTL_Anten - Copy (3) - Copy - Copy\\Anten\\Anten.csproj",
+        "projectUniqueName": "D:\\DoAn1\\Anten\\Anten.csproj",
         "projectName": "Anten",
-        "projectPath": "D:\\BTL_Anten - Copy (3) - Copy - Copy\\Anten\\Anten.csproj",
+        "projectPath": "D:\\DoAn1\\Anten\\Anten.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "D:\\BTL_Anten - Copy (3) - Copy - Copy\\Anten\\obj\\",
+        "outputPath": "D:\\DoAn1\\Anten\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",

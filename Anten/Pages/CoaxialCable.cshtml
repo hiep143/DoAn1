@@ -4,33 +4,50 @@
     ViewData["Title"] = "Coaxial Cable";
 }
 
+<style>
+    .small-img1 {
+        width: 30%; /* You can adjust the percentage as needed */
+        height: auto;
+    }
+</style>
+
+<style>
+    .small-img2 {
+        width: 50%; /* You can adjust the percentage as needed */
+        height: auto;
+    }
+</style>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <div>
-    <div class="container mt-5">
-        <img id="matchingImage" class="border border-primary rounded" style="margin-left: 410px;" src="T_DCFEED.png" class="mx-auto d-block">
+    <div class="container mt-5 d-flex justify-content-between">
+        <img src="~/images/CT CoaxialCable.jpg" alt="Microstrip Line Example" class="img-fluid small-img2">
+        <img src="~/images/CoaxialCable.jpg" alt="Microstrip Line Example" class="img-fluid small-img1">
     </div>
+
     <div class="container mt-5">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 ps-5">
                 <h2 class="text-center mb-3">Nhập giá trị</h2>
                 <form id="inputForm">
                     <div class="mb-3 row">
-                        <label for="Er" class="col-sm-2 col-form-label">Er</label>
+                        <label for="Er" class="col-sm-4 col-form-label">Dielectric Constant(&epsilon;<sub>r</sub>):</label>
                         <div class="col-sm-6">
                             <input type="number" class="form-control" id="Er" name="Er" value="@Model?.Er" required>
                         </div>
                     </div>
+
                     <div class="mb-3 row">
-                        <label for="Dout" class="col-sm-2 col-form-label">Dout</label>
+                        <label for="Dout" class="col-sm-4 col-form-label">Dout(mm):</label>
                         <div class="col-sm-6">
-                            <input type="number" class="form-control" id="Dout" name="Dout" value="@Model?.Dout" required>
+                            <input type="number" class="form-control" id="Dout" name="Dout" value="@Model?.DoutValue" required>
                         </div>
                     </div>
                     <div class="mb-3 row">
-                        <label for="Din" class="col-sm-2 col-form-label">Din</label>
+                        <label for="Din" class="col-sm-4 col-form-label">Din(mm):</label>
                         <div class="col-sm-6">
-                            <input type="number" class="form-control" id="Din" name="Din" value="@Model?.Din" required>
+                            <input type="number" class="form-control" id="Din" name="Din" value="@Model?.DinValue" required>
                         </div>
                     </div>
                 </form>
@@ -47,15 +64,48 @@
 </div>
 
 <script>
+    function showErrorMessage(message) {
+        document.getElementById("result").innerHTML = "<p style='color:red;'>" + message + "</p>";
+    }
+
+    function hideErrorMessage() {
+        document.getElementById("errorText").style.display = "none";
+    }
+
+    function validateInputs(inputs) {
+        for (var i = 0; i < inputs.length; i++) {
+            if (isNaN(inputs[i]) || inputs[i] <= 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+
     function CalculateCoaxialCable() {
-        var Er = document.getElementById("Er").value;
-        var Dout = document.getElementById("Dout").value;
-        var Din = document.getElementById("Din").value;
+        var Er = parseFloat(document.getElementById("Er").value);
+        var Dout = parseFloat(document.getElementById("Dout").value);
+        var Din = parseFloat(document.getElementById("Din").value);
+
+        if (Er <= 0 || Dout <= 0 || Din <= 0) {
+            showErrorMessage("Các giá trị đầu vào phải lớn hơn 0");
+            return;
+        }
+
+        // Kiểm tra các điều kiện đầu vào trên phía máy khách
+        if (!validateInputs([Er, Dout, Din])) {
+            showErrorMessage("Bạn phải nhập giá trị cho Dielectric Constant, Dout và Din trước khi tính toán");
+            return;
+        }
+
+        if (Din >= Dout) {
+            showErrorMessage("Bạn phải nhập giá trị cho Din nhỏ hơn Dout");
+            return;
+        }
 
         $.ajax({
             type: "POST",
-            url: "/api/CoaxialCable/CalculateCoaxialCable",
-            data: { Er: Er, DoutValue: Dout, DinValue: Din },
+            url: "/Home/CalculateCoaxialCable",
+            data: { Er: Er, Dout: Dout, Din: Din },
             success: function (response) {
                 if (response && response.length > 0) {
                     var resultHtml = "<h2>Kết quả tính toán</h2>";
@@ -65,13 +115,15 @@
                     }
 
                     if (response[1] !== undefined) {
-                        resultHtml += "<p>Fcutoff = " + response[1][0] + " Hz</p>";
+                        resultHtml += "<p>Fcutoff = " + response[1][0] + " GHz</p>";
                     }
 
                     if (response[2] !== undefined) {
-                        resultHtml += "<p>Cft = " + response[2][0] + " nF</p>";
+                        resultHtml += "<p>Cft = " + response[2][0] + " pF</p>";
                     }
-
+                    if (response[3] !== undefined) {
+                        resultHtml += "<p>Ift = " + response[3][0] + " nH</p>";
+                    }
                     document.getElementById("result").innerHTML = resultHtml;
                 } else {
                     document.getElementById("result").innerHTML = "<p style='color:red;'>Không có kết quả trả về.</p>";

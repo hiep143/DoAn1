@@ -1,38 +1,36 @@
-﻿﻿using System;
-using UnitsNet;
-using System.Numerics;
-using UnitsNet.Units;
-using Microsoft.AspNetCore.Server.Kestrel.Core;
-using Microsoft.AspNetCore.Mvc;
+﻿﻿using Microsoft.AspNetCore.Mvc;
+using Anten.Models;
+using System;
 
 namespace Anten.Controllers
 {
     public class MicrostripPatchController : Controller
     {
-        public static double[][] CalculateMicrostripPatch(
-            double Er,
-            double HValue,
-            double FrequencyValue
-            )
-
-    
-
-    // Tiếp tục với các tính toán cần thiết ở đây và trả về một mảng double[][] hoặc giá trị phù hợp.
-
+        // Đảm bảo rằng chỉ có một định nghĩa của CalculateMicrostripPatch
+        [HttpPost]
+        public IActionResult CalculateMicrostripPatch(double Er, double H, double F)
         {
-            Length H = Length.FromMillimeters(HValue);
-            Frequency F = Frequency.FromGigahertz(FrequencyValue);
-            Speed Vo = Speed.FromKilometersPerSecond(300000);
-            double Co = Vo.MetersPerSecond;
-            Length W = Length.FromMeters(Vo.MetersPerSecond/(2*F.Hertz) * (Math.Sqrt(2/(Er+1))));
-            double Ereff = (Er+1)/2 + ((Er-1)/2)/Math.Sqrt(1+12*H.Meters/W.Meters);
-            Length delta_L = Length.FromMeters(H.Meters*0.412 * ((Ereff+0.3)*(W.Meters/H.Meters+0.264)) / ((Ereff-0.258)*(W.Meters/H.Meters+0.8)));
-            Length L = Length.FromMeters(Vo.MetersPerSecond/(2*F.Hertz*Math.Sqrt(Ereff)) - 2*delta_L.Meters);
-            return new double[][] { new double[] { L.Millimeters }, new double[] { W.Millimeters } };
+            try
+            {
+                // Tạo một đối tượng MicrostripPatch và truyền các giá trị từ request
+                var model = new MicrostripPatch(Er, H, F);
 
+                // Gọi phương thức CalculateMicrostripPatch để tính toán
+                model.CalculateMicrostripPatch();
 
-            // Invalid matching type or unknown case
-            return new double[0][];
+                // Trả về kết quả tính toán dưới dạng JSON
+                return Json(model.MPResults);
+            }
+            catch (ArgumentException ex)
+            {
+                // Trả về thông báo lỗi nếu các giá trị đầu vào không hợp lệ
+                return BadRequest(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                // Trả về view "Error" nếu có lỗi khác xảy ra
+                return View("Error", ex);
+            }
         }
     }
 }
